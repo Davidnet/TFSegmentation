@@ -1,0 +1,17 @@
+version: '2.3'
+
+services:
+  segmentation:
+    runtime: nvidia
+    build:
+      context: ./Docker
+      dockerfile: ./Dockerfile
+
+    volumes:
+      - .:/code
+
+    working_dir: /code
+    stdin_open: true
+    tty: true
+
+    

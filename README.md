@@ -1,4 +1,7 @@
-# Real-time Semantic Segmentation Comparative Study
+# Real-time Semantic Segmentation Comparative Study Fork by David Cardozo
+
+I'm providing the same code in a docker-compose and Dockerfile so that you can use nvidia-docker for reproduction
+
 The repository contains the official **TensorFlow** code used in our papers:
 - [RTSEG: REAL-TIME SEMANTIC SEGMENTATION COMPARATIVE STUDY](https://arxiv.org/abs/1803.02758) for comparing different realtime semantic segmentation architectures.
 - [SHUFFLESEG: REAL-TIME SEMANTIC SEGMENTATION NETWORK](https://arxiv.org/abs/1803.03816) which introduces a new fast realtime semantic segmentation network based on the ShuffleNet unit.
